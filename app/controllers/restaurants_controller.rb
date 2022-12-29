@@ -38,6 +38,7 @@ class RestaurantsController < ApplicationController
 
   # PATCH/PUT /restaurants/1
   def update
+    raise
     if @restaurant.update(restaurant_params)
       redirect_to @restaurant, notice: "Restaurant was successfully updated."
     else

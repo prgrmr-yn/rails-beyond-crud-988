@@ -1,5 +1,5 @@
 <h1>Top rated restaurants</h1>
-
+<%= link_to 'All restaurants', restaurants_path %>
 <hr>
 <% @restaurants.each do |restaurant|%>
   <%= render 'restaurant', restaurant: restaurant %>

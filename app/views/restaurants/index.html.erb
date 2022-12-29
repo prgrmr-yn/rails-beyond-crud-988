@@ -1,6 +1,7 @@
 <p style="color: green"><%= notice %></p>
 
 <h1>Restaurants</h1>
+<%= link_to 'Top rated restaurants', top_restaurants_path %>
 <hr>
 <div id="restaurants">
   <% @restaurants.each do |restaurant| %>

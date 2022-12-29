@@ -1,0 +1,5 @@
+ <h1><%= @restaurant.name %></h1>
+ <h3>Chef name: <%= @restaurant.chef_name %></h3>
+
+<%= link_to 'Back to this restaurant', restaurant_path(@restaurant) %>
+<%= link_to 'All Restaurants', restaurants_path %>

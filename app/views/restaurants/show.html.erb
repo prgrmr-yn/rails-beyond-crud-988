@@ -1,7 +1,7 @@
 <p style="color: green"><%= notice %></p>
 
 <%= render @restaurant %>
-
+<%=  link_to 'See chef', chef_restaurant_path%>
 <div>
   <%= link_to "Edit this restaurant", edit_restaurant_path(@restaurant) %> |
   <%= link_to "Back to restaurants", restaurants_path %>

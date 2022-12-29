@@ -1,0 +1,7 @@
+<h1>Top rated restaurants</h1>
+
+<hr>
+<% @restaurants.each do |restaurant|%>
+  <%= render 'restaurant', restaurant: restaurant %>
+<hr>
+<% end %>
